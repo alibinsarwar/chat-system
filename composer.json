@@ -1,0 +1,22 @@
+{
+    "name": "alisarwar/chat-system",
+    "description": "Real Time Chat system in Laravel using php pusher",
+    "type": "library",
+    "require": {
+        "laravel/breeze": "2.x-dev",
+        "pusher/pusher-php-server": "^7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ali\\ChatSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Ali",
+            "email": "alibinsarwar2001@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
