@@ -1,6 +1,6 @@
 {
   "name": "alisarwar/chat-system",
-  "description": "Real Time Chat system in Laravel using php pusher",
+  "description": "Real Time Chat System in Laravel using php pusher",
   "type": "library",
   "require": {
     "laravel/breeze": "*",
