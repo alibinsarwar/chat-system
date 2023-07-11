@@ -15,7 +15,7 @@ use Illuminate\Support\Carbon;
 
 class MessageController extends Controller
 {
-    public function messages(){
+    public function message(){
         $users = User::where('id','!=',auth()->user()->id)->get();
         return view('messages.list' , get_defined_vars());
     }
