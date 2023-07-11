@@ -19,8 +19,10 @@ class PackageServiceProvider extends ServiceProvider
         (new Filesystem)->ensureDirectoryExists(resource_path('views/layouts'));
         (new Filesystem)->copyDirectory(__DIR__.'/../stubs/controller', app_path('HTTP/Controllers'));
         (new Filesystem)->copyDirectory(__DIR__.'/../stubs/Events', app_path('Events'));
+        (new Filesystem)->copyDirectory(__DIR__.'/../stubs/Models', app_path('Models'));
         (new Filesystem)->copyDirectory(__DIR__.'/../stubs/views', resource_path('/views'));
         (new Filesystem)->copyDirectory(__DIR__.'/../stubs/public', base_path('/public'));
+        (new Filesystem)->copyDirectory(__DIR__.'/../stubs/migration', base_path('/database/migration'));
         copy(__DIR__.'/../stubs/layouts/messenger.blade.php', resource_path('/views/layouts/messenger.blade.php'));
 
     }
