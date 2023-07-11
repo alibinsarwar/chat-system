@@ -18,12 +18,8 @@
       "email": "alibinsarwar2001@gmail.com"
     }
   ],
-  "minimum-stability": "stable",
-  "prefer-stable": true,
+  "minimum-stability": "dev",
   "extra": {
-    "branch-alias": {
-      "dev-master": "1.x-dev"
-    },
     "laravel": {
       "providers": [
         "Ali\\ChatSystem\\PackageServiceProvider"
