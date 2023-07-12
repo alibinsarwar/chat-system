@@ -8,7 +8,7 @@
                             <span class="chat-icon"><img class="img-fluid" src="https://mehedihtml.com/chatbox/assets/img/arroleftt.svg" alt="image title"></span>
                             <div class="flex-shrink-0">
                                 @if($receiver->profile == null)
-                                <img class="img-fluid profile" src="{{asset('account.png')}}" alt="user img">
+                                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                                 @else
                                 <img class="img-fluid profile" src="{{asset($receiver->profile)}}" alt="user img">
                                 @endif

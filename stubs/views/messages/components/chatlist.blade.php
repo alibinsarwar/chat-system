@@ -17,7 +17,7 @@
                                 <a href="{{route('chat',$item->name)}}" onclick="MoveLocation('{{route('chat',$item->name)}}')" class="d-flex checkurl align-items-center ">
                                     <div class="flex-shrink-0">
                                         @if($item->profile == null)
-                                        <img class="img-fluid profile" src="{{asset('account.png')}}" alt="user img">
+                                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                                         @else
                                         <img class="img-fluid profile" src="{{asset($item->profile)}}" alt="user img">
                                         @endif

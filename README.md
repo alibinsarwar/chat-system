@@ -1,6 +1,6 @@
 # Laravel Chat System
 
-A chat system package for Laravel that enables users to chat with each other using Pusher PHP server.
+A chat system package for Laravel that enables users to chat with each other using Pusher PHP server. This Package provide you Echosystem ( Event , Controller , Migrations , Models , Views ) which enable your application to start conversatation between two users.
 
 <div align="center">
 
@@ -43,10 +43,15 @@ This package requires the following dependencies:
 4. Add Routes to your web.php
 
    ```shell
+    # veiw all available users to start conversation
        Route::get('/message',[MessageController::class , 'message'])->name('message');
+    # open chat of specfic user
        Route::get('/chat/{slug?}',[MessageController::class , 'chat'])->name('chat');
+    # broadcast message to channel
        Route::post('/broadcast', [MessageController::class , 'broadcast'])->name('broadcast');
+    # receive message from channel
        Route::post('/receive', [MessageController::class , 'receive'])->name('receive');
+    # authenticate private channel
        Route::post('/pusher/auth', [MessageController::class , 'auth'])->name('pusher.auth');
    ```
 
@@ -71,7 +76,7 @@ This package requires the following dependencies:
        php artisan serve
    ```
 
-7. Register Users and start conversation between them
+7. Register Users and start conversation by going to /message
 
 ## Contributing
 
