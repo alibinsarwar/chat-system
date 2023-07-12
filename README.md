@@ -1,15 +1,18 @@
 # Laravel Chat System
 
+A chat system package for Laravel that enables users to chat with each other using Pusher PHP server.
+
 <div align="center">
 
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/alibinsarwar/chat-system/blob/master/LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/alibinsarwar/chat-system)](https://github.com/alibinsarwar/chat-system/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/alibinsarwar/chat-system)](https://github.com/alibinsarwar/chat-system/pulls)
 
 </div>
 
-A chat system package for Laravel that enables users to chat with each other using Pusher PHP server.
+## Preview
+
+[![Chat System Preview](preview/preview.gif)](preview/preview.mp4)
 
 ## Requirements
 
