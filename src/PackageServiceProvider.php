@@ -22,7 +22,7 @@ class PackageServiceProvider extends ServiceProvider
         (new Filesystem)->copyDirectory(__DIR__.'/../stubs/Models', app_path('Models'));
         (new Filesystem)->copyDirectory(__DIR__.'/../stubs/views', resource_path('/views'));
         (new Filesystem)->copyDirectory(__DIR__.'/../stubs/public', base_path('/public'));
-        (new Filesystem)->copyDirectory(__DIR__.'/../stubs/migration', base_path('/database/migrations'));
+        (new Filesystem)->copyDirectory(__DIR__.'/../stubs/migrations', base_path('/database/migrations'));
         copy(__DIR__.'/../stubs/layouts/messenger.blade.php', resource_path('/views/layouts/messenger.blade.php'));
 
     }

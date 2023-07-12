@@ -3,7 +3,6 @@
   "description": "Real Time Chat System in Laravel using php pusher",
   "type": "library",
   "require": {
-    "laravel/breeze": "^1",
     "pusher/pusher-php-server": "^7"
   },
   "license": "MIT",
