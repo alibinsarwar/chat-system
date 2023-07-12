@@ -1,9 +1,11 @@
 # Laravel Chat System
 
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/alibinsarwar/chat-system/blob/master/LICENSE)
-[![Latest Stable Version](https://poser.pugx.org/alibinsarwar/chat-system/v/stable)](https://packagist.org/packages/alibinsarwar/chat-system)
-[![Total Downloads](https://poser.pugx.org/alibinsarwar/chat-system/downloads)](https://packagist.org/packages/alibinsarwar/chat-system)
-[![Build Status](https://travis-ci.org/alibinsarwar/chat-system.svg?branch=master)](https://travis-ci.org/alibinsarwar/chat-system)
+<div align="center">
+    [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/alibinsarwar/chat-system/blob/master/LICENSE)
+    [![Status](https://img.shields.io/badge/status-active-success.svg)]()
+    [![GitHub Issues](https://img.shields.io/github/issues/alibinsarwar/chat-system)](https://github.com/alibinsarwar/chat-system/issues)
+    [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/alibinsarwar/chat-system)](https://github.com/alibinsarwar/chat-system/pulls)
+</div>
 
 A chat system package for Laravel that enables users to chat with each other using Pusher PHP server.
 
@@ -23,7 +25,7 @@ This package requires the following dependencies:
 
 ## Installation
 
-1. Make sure you have a Pusher keys if you don't have then get them by login to [Pusher Dashboard](https://dashboard.pusher.com/) and then create new APP ,and install [Pusher PHP Server](https://github.com/pusher/pusher-http-php) For authentication I preffer to install [Laravel Breeze](https://github.com/laravel/breeze) package in your Laravel application.
+1. Make sure you have a Pusher keys if you don't have then get them by login to [Pusher Dashboard](https://dashboard.pusher.com/) and then create new APP , and install [Pusher PHP Server](https://github.com/pusher/pusher-http-php) For authentication preffer to install [Laravel Breeze](https://github.com/laravel/breeze) package in your Laravel application.
 
 2. Run the following command to install the Laravel Chat System package:
 
