@@ -12,7 +12,7 @@ A chat system package for Laravel that enables users to chat with each other usi
 
 ## Preview
 
-[![Chat System Preview](preview/preview.gif)](preview/preview.mp4)
+[![Chat System Preview](preview/conversation.gif)](preview/conversation.mp4)
 
 ## Requirements
 
